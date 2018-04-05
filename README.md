@@ -1,13 +1,14 @@
 # MGWAS Results Processing Cookbook
 
-## Comparison of methods for sample inference from amplicon data
+## a) Comparison of methods for sample inference from amplicon data
 ### Description
 Sample inference from high-throughput amplicon data has been performed using the SixteenS pipeline and [dada2](https://github.com/benjjneb/dada2).
 
 ### Methods
 
 
-## Phylogenetic tree in iTOL
+
+## b) Phylogenetic tree in iTOL
 ### Description
 Producing a phylogenetic tree of the taxa under study with overlaying piecharts containing information on loci counts (using different methods) and branches coloured according to heritability.
 
@@ -26,7 +27,8 @@ python3 mgwas_itol.py all_taxa.tree counts.txt heritability.txt
 ```
 
 
-## Manhattan Plots
+
+## c) Manhattan Plots
 ### Description
 Running these scripts will create a series of Manhattan plots, displaying the significance of each SNP associated with the microbial taxa tested. Plots for all the models run are produced and results can be merged by taxonomical group (eg. Proteobacteria) or by taxonomical level (eg. genera). 
 
